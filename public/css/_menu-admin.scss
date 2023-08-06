@@ -1,0 +1,33 @@
+//MENU-ADMIN
+section.menu.admin {
+
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 4fr 10fr 1fr 1fr;
+    grid-gap: 10px;
+    /* Gap between grid items */
+    border-top: solid $gris 1px;
+    border-bottom: solid $gris 1px;
+    
+
+    .grid-item {
+      background-color: $background;
+
+      &.grid-item.end {
+        padding-right: 0.5em;
+        border-right: solid $gris 1px;
+      }
+    }
+
+    .grid-item.symboles {
+      display: flex;
+      width: 100px;
+      align-items: center;
+
+      a {
+        width: 50px;
+      }
+    }
+  }
+}

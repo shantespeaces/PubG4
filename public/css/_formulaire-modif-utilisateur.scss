@@ -1,0 +1,93 @@
+//FORMULAIRE MODIFICATION
+section.formulaire.modification.utilisateur {
+  height: 100%;
+  width: 100%;
+  background-image: url(../img/admin.jpg);
+
+  form {
+    height: 40rem;
+    width: 30%;
+    background-color: $saumon-fonce;
+    position: relative;
+    top: 2rem;
+    margin: 0 auto;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-family: "itc-avant-garde-gothic-pro", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding-top: 5em;
+    padding-bottom: 5em;
+
+    .titre {
+      font-size: 1.8rem;
+      text-align: center;
+      padding-bottom: 1em;
+    }
+
+    .conteneur-modif-utilisateur {
+      margin-right: 10rem;
+      margin-left: 10rem;
+
+      p.titre {
+        font-size: 1.8rem;
+        padding-bottom: 1em;
+      }
+
+      p {
+        font-size: 1.2rem;
+      }
+
+      input {
+        height: 40px;
+        width: 300px;
+        margin-bottom: 1rem;
+        margin-top: 0.3rem;
+        box-shadow: 2px 1px 1px 1px $saumon-pale;
+        border: none;
+        border-radius: 5px;
+        padding-left: 1em;
+      }
+    }
+
+    .btn {
+      position: relative;
+      left: 3rem;
+      top: 3rem;
+      padding-bottom: 3.5em;
+
+      .cercle {
+        border: solid $noir 2px;
+        background-color: $saumon-fonce;
+      }
+
+      span {
+        color: $noir;
+      }
+
+      .boutton {
+        color: $noir;
+        background-color: $saumon-fonce;
+      }
+
+      &:hover {
+
+        .cercle {
+          background-color: $noir;
+
+          span {
+            color: $saumon-fonce;
+          }
+
+          .boutton {
+            background-color: $saumon-fonce;
+            color: $noir;
+            position: absolute;
+            top: 0.5px;
+            left: 4.2rem;
+          }
+        }
+      }
+    }
+  }
+}

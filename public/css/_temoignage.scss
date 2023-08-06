@@ -1,0 +1,98 @@
+//TEMOIGNAGES
+section.temoignages {
+  margin-top: 5rem;
+  width: 100%;
+  height: 40rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+
+  article {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 8rem;
+
+    .rating {
+      margin-top: 5rem;
+      margin-bottom: 5rem;
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 1em;
+      span:hover{
+        font-size: 24px;
+      }
+    }
+
+    .intro p {
+      margin-bottom: 1.75rem;
+      
+    }
+
+    .conteneur-suggestions {
+      margin-top: 3rem;
+      display: flex;
+      flex-direction: column;
+
+      .breuvage p {
+        border: solid 1px;
+        height: 35px;
+        padding-left: 1em;
+        border-top: none;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        display: flex;
+      }
+
+      .plat p {
+        
+        font-family: "itc-avant-garde-gothic-pro", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        text-transform: uppercase;
+        font-size: 1.5rem;
+        height: 60px;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+      }
+
+      .suggestion {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: solid 1px;
+        padding-left: 1em;
+        padding-right: 1em;
+      }
+    }
+  }
+
+  .conteneur-images {
+    position: relative;
+  }
+
+  .temoignage-image {
+    margin-right: 10rem;
+
+    img {
+      width: 30rem;
+      height: 40rem;
+      object-fit: cover;
+    }
+  }
+
+}
+
+
+.star {
+  position: absolute;
+  top: 15rem;
+  right: 35rem;
+  height: 180px;
+  width: 180px;
+
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}

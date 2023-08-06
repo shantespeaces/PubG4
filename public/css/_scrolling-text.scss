@@ -1,0 +1,57 @@
+.scrolling-text-conteneur {
+    position: relative;
+    width: 200%;
+    height: 200px;
+    overflow: hidden;
+    letter-spacing: 5px;
+    border-top: solid $noir 1px;
+    border-bottom: solid $noir 1px;
+    opacity: 0.4;
+    margin-bottom: 3rem;
+    margin-top: 4rem;
+
+    p.scrolling-text{
+        position: absolute;
+        padding: none;
+        font-size: 10em;
+        text-transform: uppercase;
+        font-family: "itc-avant-garde-gothic-pro", sans-serif;
+        overflow: hidden;
+    white-space: no-wrap;
+        font-style: normal;
+      
+        color: $saumon-pale;
+       
+        text-shadow: -1px -1px 0 #282827, 1px -1px 0 #282827, -1px 1px 0 #282827, 1px 1px 0 #282827;
+        animation: anim 30s linear infinite;
+    }
+    @keyframes anim{
+        100%{transform: translateX(-100%);}
+    }
+}
+
+
+
+
+/*.scrolling-text {
+
+    width: 200%;
+    white-space: nowrap;
+    animation-duration: 25s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.scrolling-text-wrapper {
+    font-size: 5rem;
+    overflow: hidden;
+    margin: 40px 0;
+    letter-spacing: 5px;
+}
+.text {
+    text-transform: uppercase;
+    font-family: "itc-avant-garde-gothic-pro", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: $noir;
+    text-shadow: -1px -1px 0 #282827, 1px -1px 0 #282827, -1px 1px 0 #282827, 1px 1px 0 #282827;
+}*/

@@ -1,0 +1,42 @@
+[
+    {
+        "id": 0,
+        "note_media": "PUB G4 // INSTAGRAM // 10 MARS 2023",
+        "rating": 5,
+        "commentaire": "Excellent service et de la nourriture absolument délicieuse!",
+        "image": "temoignage4.jpg",
+        "imageRating": "5star.png",
+        "plat": "Potage du moment",
+        "suggestion": "se marie bien avec notre PORTO maison"
+    },
+    {
+        "id": 1,
+        "note_media": "PUB G4 // INSTAGRAM // 01 JANVIER 2023",
+        "rating": 5,
+        "commentaire": "Pub G4 est ma destination favorite lorsque je veux recevoir des invités. Fiables et toujours une ambiance très agréable.",
+        "image": "temoignage1.jpg",
+        "imageRating": "5star.png",
+        "plat": "Cupcake style ferrero",
+        "suggestion": "un petit café avec ca?"
+    },
+    {
+        "id": 2,
+        "note_media": "PUB G4 // INSTAGRAM // 09 JUIN 2023",
+        "rating": 4.5,
+        "commentaire": "Même si les prix ne sont pas les plus bas, Pub G4 est une référence dans la qualité du service et de leur mets. Je recommande!",
+        "image": "temoignage6.jpg",
+        "imageRating": "4star.png",
+        "plat": "Tartare de boeuf",
+        "suggestion": "se marie bien avec un bon MOJITO!"
+    },
+    {
+        "id": 3,
+        "note_media": "PUB G4 // INSTAGRAM // 21 SEPTEMBRE 2023",
+        "rating": 5,
+        "commentaire": "Woow! Superbe présentation et le meilleur fish & chips que je n’ai jamais mangé!",
+        "image": "temoignage2.jpg",
+        "imageRating": "5star.png",
+        "plat": "Calamar",
+        "suggestion": "savourer une bonne bière!"
+    }
+]

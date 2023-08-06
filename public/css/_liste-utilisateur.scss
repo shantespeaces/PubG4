@@ -1,0 +1,32 @@
+section.liste-utilisateurs{
+  
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    .un-utilisateur{
+        height: 15rem;
+        width: 25rem;
+        margin: 2rem;
+       border-radius: 5px;
+       padding: 2em 3.5em;
+       background-color: $saumon-pale;
+       
+       .conteneur{
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 1em;
+        
+       }
+       
+       p.titre{
+        
+        text-transform: uppercase;
+        font-family: "itc-avant-garde-gothic-pro", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        padding-right: 1em;
+       }
+    }
+}

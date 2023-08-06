@@ -1,0 +1,127 @@
+
+
+//========================================BOILERPLATE============================//
+
+$noir: #2F3131;
+$saumon-pale: #F3D6C6;
+$saumon-fonce: #DB8A6C;
+$background: #F8F5F2;
+$vert-foret: #3A4638;
+$blanc: #FFFFFF;
+$gris: #707070;
+
+
+
+html {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: $noir;
+  background-color: $background;
+  box-sizing: border-box;
+
+  .material-icons {
+    padding-right: 0.5em;
+  }
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+
+//==========================================DÉCLARATION GÉNÉRAL=====================================//
+
+.interface {
+  width: 100%;
+  background-color: $background;
+  padding-left: 10em;
+  padding-right: 10em;
+}
+
+h2,
+h3,
+h4 {
+  text-transform: uppercase;
+  font-family: "itc-avant-garde-gothic-pro", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 2rem;
+  padding-left: 5em;
+  font-family: 'Quantico', sans-serif;
+}
+
+h2 {
+  font-size: 2.5rem;
+  padding-top: 1.5em;
+  padding-bottom: 0.75em;
+}
+
+h3 {
+  font-size: 2rem;
+  padding-bottom: 0.75em;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+span {
+  color: $noir;
+  opacity: 1;
+  transition: 0.3s;
+
+  span:hover {
+    opacity: 0.6;
+  }
+}
+
+a{
+  padding-right: 1em;
+  opacity: 1;
+  transition: 0.3s;
+}
+a:hover{
+  opacity: 0.6;
+}
+
+//=============================GOOGLE SYMBOLS=====================================//
+span .material-symbols-outlined {
+  font-weight: 100;
+  font-style: normal;
+  font-size: 24px; 
+}
+span:hover{
+  font-size: 30px;
+}
+
+
+
+
+
+@import "_articles-services-accueil.scss";
+@import "_bouttons.scss";
+@import "_connexion.scss";
+@import "_creation-compte.scss";
+@import "_deconnexion.scss";
+@import "_footer.scss";
+@import "_formulaire-ajout.scss";
+@import "_formulaire-modif-plat.scss";
+@import "_formulaire-modif-utilisateur.scss";
+@import "_infolettre.scss";
+@import "_liste-utilisateur.scss";
+
+@import "_header-admin.scss";
+@import "_header.scss";
+@import "_menu-admin.scss";
+@import "_menu-nourriture.scss";
+@import "_temoignage.scss";
+@import "_scrolling-text.scss";
+

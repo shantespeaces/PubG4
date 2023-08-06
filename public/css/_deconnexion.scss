@@ -1,0 +1,32 @@
+//====================================DECONNEXION==========================//
+.conteneur-deconnexion {
+  background-color: $vert-foret;
+  height: 10rem;
+  width: 100%;
+
+  .btn {
+    position: relative;
+    left: 93rem;
+    top: 4rem;
+
+    .cercle {
+      background-color: $vert-foret;
+      border: solid $blanc 1px;
+
+      span {
+        color: $blanc;
+      }
+    }
+
+    .boutton.deconnexion {
+      color: $blanc;
+      background-color: $vert-foret;
+    }
+
+    a {
+      color: $blanc;
+      text-decoration: none;
+    }
+  }
+
+}

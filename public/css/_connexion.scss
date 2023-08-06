@@ -1,0 +1,103 @@
+//CONNEXION
+header {
+  a {
+    color: $blanc;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "itc-avant-garde-gothic-pro", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding-right: 5em;
+  }
+
+  p {
+    padding-left: 5em;
+  }
+}
+
+main.page-connexion {
+  text-transform: uppercase;
+  font-family: "itc-avant-garde-gothic-pro", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  background-image: url(../img/admin.jpg);
+  width: 100vw;
+  height: 100vh;
+}
+
+section.formulaire.connexion {
+  height: 40rem;
+  width: 40%;
+  background-color: $saumon-fonce;
+  position: relative;
+  top: 15rem;
+  left: 38rem;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 5px;
+
+  .btn {
+    position: relative;
+    left: 3rem;
+    top: 3rem;
+
+    .cercle {
+      border: solid $noir 2px;
+      background-color: $saumon-fonce;
+    }
+
+    span {
+      color: $noir;
+    }
+
+    .boutton {
+      color: $noir;
+      background-color: $saumon-fonce;
+    }
+
+    &:hover {
+
+      .cercle {
+        background-color: $noir;
+
+        span {
+          color: $saumon-fonce;
+        }
+
+        .boutton {
+          background-color: $saumon-fonce;
+          color: $noir;
+          position: absolute;
+          top: 0.5px;
+          left: 4.2rem;
+        }
+      }
+    }
+  }
+
+  .titre {
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: "itc-avant-garde-gothic-pro", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+
+    input {
+      margin: 2em;
+      height: 35px;
+      width: 200px;
+      padding-left: 0.5em;
+      text-transform: uppercase;
+      font-family: "itc-avant-garde-gothic-pro", sans-serif;
+      font-weight: 300;
+      font-style: normal;
+    }
+  }
+}

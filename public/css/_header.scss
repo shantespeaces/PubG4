@@ -1,0 +1,70 @@
+//HEADER
+
+nav.accueil {
+    background-color: $vert-foret;
+    height: 3rem;
+    color: $blanc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.medias-accueil{
+    margin-right: 10rem;
+    a{
+      padding-right: 1.5em;
+    }
+  }
+  
+  .logo {
+    margin: 0 auto;
+    width: 150px;
+    position: relative;
+  
+    img {
+      position: absolute;
+      top: 3rem;
+      right: 0px;
+    }
+  }
+  
+  nav.menu {
+    width: 100%;
+    padding-left: 10em;
+    padding-right: 9.5em;
+    padding-bottom: 1em;
+  
+    .liens-menu {
+      margin-top: 3rem;
+  
+      a {
+        padding-left: 2em;
+        color: $noir;
+        text-decoration: none;
+      }
+    
+      a.accueil::before {
+        content: '';
+        height: 1px;
+        width: 1600px;
+        background: black;
+        display: block;
+      }
+    }
+  }
+  
+  
+  //HERO
+  .hero {
+    width: 100%;
+    background-color: black;
+    text-align: center;
+  
+    video {
+      width: 60%;
+      height: auto;
+    }
+  }
+
+  
+  
